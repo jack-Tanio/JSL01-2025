@@ -96,6 +96,7 @@ header {
   min-height: 97px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   border-bottom: 1px solid #E4EBFA;
   position: sticky;
   top: 0;
@@ -108,6 +109,28 @@ header h2 {
   color: #000112;
   letter-spacing: 1px;
   margin: 0;
+}
+
+.add-task-btn {
+  background: #635FC7;
+  color: #fff;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  border: none;
+  border-radius: 24px;
+  padding: 0.75rem 2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(54, 78, 126, 0.07);
+  transition: background 0.2s, box-shadow 0.2s;
+  margin-left: 2rem;
+}
+
+.add-task-btn:hover,
+.add-task-btn:focus {
+  background: #8471F2;
+  outline: none;
 }
 
 /* --- Kanban Board --- */
